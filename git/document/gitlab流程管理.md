@@ -141,7 +141,7 @@ git tag -a 1.2.0 -m '部署包版本名'
 8.**修复分支fixbug**
    修复分支和feature本质上是一样的，只是功能不一样，流程和操作参照feature分支。
 
-11.**合并 master分支**
+9.**合并 master分支**
    master分支发布到生产环后，master分支如果发生变更，需要从master分支合并到develop分支，可以考虑定期合并一次。
 ```
 git checkout develop

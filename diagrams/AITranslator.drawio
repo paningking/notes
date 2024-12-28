@@ -1,9 +1,12 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="26.0.1">
   <diagram name="Page-1" id="shWCEhVanTNHIjCodVBD">
-    <mxGraphModel>
+    <mxGraphModel dx="1562" dy="818" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="7LoI9SPX_q_TpVEJlrQI-1" value="+------------------------+     +------------------------+&#xa;|   启用会议模式         |----&gt;|    语音输入处理（多个参与者）  |&#xa;+------------------------+     +------------------------+&#xa;                                     |&#xa;                                     v&#xa;                        +-------------------------------+&#xa;                        |    语音转文本                  |&#xa;                        |    翻译文本                    |&#xa;                        |    语音合成                    |&#xa;                        +-------------------------------+&#xa;                                     |&#xa;                                     v&#xa;                        +-------------------------------+&#xa;                        |    播放翻译语音                |&#xa;                        +-------------------------------+" style="text;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="200" y="170" width="360" height="240" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
